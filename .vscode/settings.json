@@ -1,5 +1,5 @@
 {
-  // fix until vscode update
+  // woorkaround for schema validation until vscode update (hopefully by end of May)
   "json.schemaDownload.enable": true,
 
   "cssvar.files": [
