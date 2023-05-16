@@ -1,4 +1,7 @@
 {
+  // fix until vscode update
+  "json.schemaDownload.enable": true,
+
   "cssvar.files": [
     // "assets/styles/variables.css"
   ],
@@ -9,11 +12,7 @@
   // "typescript.suggest.paths": false,
   // "javascript.suggest.paths": false
 
-  "stylelint.validate": [
-    "html",
-    "svelte",
-    "astro"
-  ],
+  "stylelint.validate": ["html", "svelte", "astro"],
 
   "eslint.validate": [
     "javascript",
