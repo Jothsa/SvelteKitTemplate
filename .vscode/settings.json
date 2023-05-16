@@ -27,7 +27,6 @@
   "editor.formatOnPaste": true,
   // TODO fix formatting
   "[svelte]": { "editor.defaultFormatter": "svelte.svelte-vscode" },
-  "[astro]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
 
   "editor.codeActionsOnSave": {
     "source.fixAll": true
