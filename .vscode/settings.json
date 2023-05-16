@@ -1,0 +1,36 @@
+{
+  "cssvar.files": [
+    // "assets/styles/variables.css"
+  ],
+
+  // add support for autocomplete in JS or JS like files
+  "cssvar.extensions": ["css", "postcss", "jsx", "tsx"],
+
+  // "typescript.suggest.paths": false,
+  // "javascript.suggest.paths": false
+
+  "stylelint.validate": [
+    "html",
+    "svelte",
+    "astro"
+  ],
+
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "astro",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "[svelte]": { "editor.defaultFormatter": "svelte.svelte-vscode" },
+  "[astro]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "prettier.documentSelectors": ["**/*.astro"],
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  }
+}
