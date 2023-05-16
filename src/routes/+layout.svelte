@@ -2,6 +2,7 @@
   import '$styles/index.css';
   import { onMount } from 'svelte';
   import { page } from '$app/stores';
+  import type { LayoutData } from './$types';
   export let data: LayoutData;
 </script>
 
