@@ -1,13 +1,9 @@
 <script lang="ts">
-
-
-import '$styles/index.css';
-import { onMount } from 'svelte';
-import { page } from '$app/stores';
-export let data: LayoutData;
-
+  import '$styles/index.css';
+  import { onMount } from 'svelte';
+  import { page } from '$app/stores';
+  export let data: LayoutData;
 </script>
-
 
 <svelte:head>
   <title>{$page.data.title}</title>
