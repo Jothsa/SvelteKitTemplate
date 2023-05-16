@@ -27,7 +27,6 @@
   "editor.formatOnPaste": true,
   "[svelte]": { "editor.defaultFormatter": "svelte.svelte-vscode" },
   "[astro]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "prettier.documentSelectors": ["**/*.astro"],
 
   "editor.codeActionsOnSave": {
     "source.fixAll": true
