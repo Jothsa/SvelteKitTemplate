@@ -12,11 +12,11 @@
     "test:unit": "vitest",
     "lint:style": "stylelint '**/*.{css,postcss,svelte}'",
     "lint:es": "eslint .",
-    "lint:prettier": "prettier --cache --plugin-search-dir=. --check .",
+    "lint:prettier": "prettier --cache --check .",
     "lint": " pnpm lint:prettier; pnpm lint:es; pnpm lint:style",
     "format:style": "stylelint --fix '**/*.{css,postcss,svelte}'",
     "format:es": "eslint --fix",
-    "format:prettier": "prettier --cache --plugin-search-dir=. --write .",
+    "format:prettier": "prettier --cache --write .",
     "format": "pnpm format:prettier; pnpm format:es; pnpm format:style"
   },
   "devDependencies": {
