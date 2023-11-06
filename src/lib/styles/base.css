@@ -47,7 +47,7 @@ and @mayank99
 }
 
 :where(body) {
-  min-height: 200vh;
+  min-height: 100svh;
   font-family: system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   line-height: 1.5;
